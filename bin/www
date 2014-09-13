@@ -1,6 +1,6 @@
 #!/usr/bin/env coffee
 
-debug = require("debug")("shoutcast-player")
+debug = require("debug")("express-template")
 app = require("../app")
 
 app.set "port", process.env.PORT or 3000
